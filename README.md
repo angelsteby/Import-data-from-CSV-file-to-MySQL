@@ -1,4 +1,4 @@
-# Programming-Evaluation
+# Import data from CSV file to MySQL
 PHP Script for importing data from CSV file to MySQL database
 
 ### Prerequisites:
