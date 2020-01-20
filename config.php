@@ -3,6 +3,12 @@
 $user_name = getopt("u:");
 $host = getopt("h:");
 $password = getopt("p:");
+$help = getopt(null,["help"]);
+
+//if asked for help option just return
+if(!empty($help)){
+  return;
+}
 
 //validate the input values
 if(empty($user_name)){
